@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:name="com.example.user.recipeapp.StepListFragment"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ingreidents"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:paddingLeft="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:textSize="15sp"
+        android:id="@+id/ingredients"/>
+     <TextView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="@string/steps"
+         android:textSize="20sp"
+         android:textColor="#000"/>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></ScrollView>
+<android.support.v7.widget.RecyclerView
+    android:id="@+id/step_list"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layoutManager="android.support.v7.widget.LinearLayoutManager"
+    tools:context=".StepListActivity"
+    tools:listitem="@layout/step_list_content" />
+    </LinearLayout>
+
+</ScrollView>

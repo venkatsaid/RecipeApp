@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">RecipeApp</string>
+    <string name="title_step_list">Steps</string>
+    <string name="title_step_detail">Step Detail</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="ingreidents"><u><b>Ingreidents:</b></u></string>
+    <string name="steps"><u><b>Steps:</b></u></string>
+    <string name="description">Description</string>
+</resources>
